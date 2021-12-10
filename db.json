@@ -1,14 +1,2403 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "id": 1,
+    "name": 72,
+    "metadata": {
+      "hall": 3,
+      "posX": 2,
+      "posY": 5,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.172",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 125,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61006498
+  },
+  {
+    "id": 2,
+    "name": 73,
+    "metadata": {
+      "hall": 3,
+      "posX": 1,
+      "posY": 2,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.175",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 200,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61007423
+  },
+  {
+    "id": 3,
+    "name": 74,
+    "metadata": {
+      "hall": 3,
+      "posX": 1,
+      "posY": 4,
+      "type": "C3",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.175",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 140,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61002488
+  },
+  {
+    "id": 4,
+    "name": 75,
+    "metadata": {
+      "hall": 3,
+      "posX": 1,
+      "posY": 1,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.175",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 200,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61007422
+  },
+  {
+    "id": 5,
+    "name": 76,
+    "metadata": {
+      "hall": 3,
+      "posX": 2,
+      "posY": 4,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.175",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 80,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61002489
+  },
+  {
+    "id": 6,
+    "name": 1,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 1,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.101",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 200,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87760940
+  },
+  {
+    "id": 7,
+    "name": 2,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 2,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.102",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 200,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87760089
+  },
+  {
+    "id": 8,
+    "name": 3,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 3,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.103",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 200,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87760088
+  },
+  {
+    "id": 9,
+    "name": 5,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 5,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.105",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 300,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87960520
+  },
+  {
+    "id": 10,
+    "name": 6,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 6,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.106",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87860841
+  },
+  {
+    "id": 11,
+    "name": 7,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 7,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.107",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87860842
+  },
+  {
+    "id": 12,
+    "name": 8,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 5,
+      "type": "Concept",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.108",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 350,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87910118
+  },
+  {
+    "id": 13,
+    "name": 21,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 2,
+      "type": "El-Exis ",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.121",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87860872
+  },
+  {
+    "id": 14,
+    "name": 28,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 7,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.128",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 150,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87660084
+  },
+  {
+    "id": 15,
+    "name": 29,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 16,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.129",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 150,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87660085
+  },
+  {
+    "id": 16,
+    "name": 4,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 4,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.104",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620181
+  },
+  {
+    "id": 17,
+    "name": 9,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 9,
+      "type": "Systec SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.109",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 280,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 80420047
+  },
+  {
+    "id": 18,
+    "name": 10,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 2,
+      "type": "Systec SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.110",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 350,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 80620032
+  },
+  {
+    "id": 19,
+    "name": 11,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 11,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.111",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620168
+  },
+  {
+    "id": 20,
+    "name": 12,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 12,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.112",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620170
+  },
+  {
+    "id": 21,
+    "name": 13,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 13,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.113",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620180
+  },
+  {
+    "id": 22,
+    "name": 14,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 14,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.114",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620185
+  },
+  {
+    "id": 23,
+    "name": 15,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 12,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.115",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 160,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72800539
+  },
+  {
+    "id": 24,
+    "name": 16,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 15,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.116",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 130,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72710140
+  },
+  {
+    "id": 25,
+    "name": 22,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 3,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.122",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620036
+  },
+  {
+    "id": 26,
+    "name": 23,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 4,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.123",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620061
+  },
+  {
+    "id": 27,
+    "name": 24,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 5,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.124",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 300,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81630040
+  },
+  {
+    "id": 28,
+    "name": 27,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 6,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.127",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 160,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72800506
+  },
+  {
+    "id": 29,
+    "name": 30,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 9,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.130",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 300,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81630112
+  },
+  {
+    "id": 30,
+    "name": 62,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 7,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.162",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 300,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81650128
+  },
+  {
+    "id": 31,
+    "name": 32,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 10,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.132",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 160,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72800507
+  },
+  {
+    "id": 32,
+    "name": 40,
+    "metadata": {
+      "hall": 2,
+      "posX": 1,
+      "posY": 1,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.140",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620191
+  },
+  {
+    "id": 33,
+    "name": 41,
+    "metadata": {
+      "hall": 2,
+      "posX": 1,
+      "posY": 2,
+      "type": "Systec ",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.141",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 210,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 80320032
+  },
+  {
+    "id": 34,
+    "name": 43,
+    "metadata": {
+      "hall": 2,
+      "posX": 1,
+      "posY": 3,
+      "type": "Systec SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.143",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 210,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 80320019
+  },
+  {
+    "id": 35,
+    "name": 44,
+    "metadata": {
+      "hall": 2,
+      "posX": 1,
+      "posY": 4,
+      "type": "Systec SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.144",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 210,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 80320018
+  },
+  {
+    "id": 36,
+    "name": 45,
+    "metadata": {
+      "hall": 2,
+      "posX": 1,
+      "posY": 5,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.145",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620084
+  },
+  {
+    "id": 37,
+    "name": 46,
+    "metadata": {
+      "hall": 2,
+      "posX": 1,
+      "posY": 6,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.146",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620112
+  },
+  {
+    "id": 38,
+    "name": 47,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 11,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.147",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 130,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72710141
+  },
+  {
+    "id": 39,
+    "name": 50,
+    "metadata": {
+      "hall": 2,
+      "posX": 2,
+      "posY": 1,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.150",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 160,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72800359
+  },
+  {
+    "id": 40,
+    "name": 51,
+    "metadata": {
+      "hall": 2,
+      "posX": 2,
+      "posY": 2,
+      "type": "Systec SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.151",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 280,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 80420030
+  },
+  {
+    "id": 41,
+    "name": 52,
+    "metadata": {
+      "hall": 2,
+      "posX": 2,
+      "posY": 3,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.152",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 200,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81610020
+  },
+  {
+    "id": 42,
+    "name": 53,
+    "metadata": {
+      "hall": 2,
+      "posX": 2,
+      "posY": 4,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.153",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 160,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72800360
+  },
+  {
+    "id": 43,
+    "name": 54,
+    "metadata": {
+      "hall": 2,
+      "posX": 2,
+      "posY": 5,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.154",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 160,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72800420
+  },
+  {
+    "id": 44,
+    "name": 55,
+    "metadata": {
+      "hall": 2,
+      "posX": 2,
+      "posY": 6,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.155",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620134
+  },
+  {
+    "id": 45,
+    "name": 56,
+    "metadata": {
+      "hall": 2,
+      "posX": 2,
+      "posY": 7,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.156",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620122
+  },
+  {
+    "id": 46,
+    "name": 98,
+    "metadata": {
+      "hall": 3,
+      "posX": 2,
+      "posY": 1,
+      "type": "C-DIAS",
+      "brand": "Provik",
+      "ipAddress": "192.168.4.198",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": "-",
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "Provik (C-DIAS)",
+    "entityStatus": "Released",
+    "serialNumber": "18/017-98"
+  },
+  {
+    "id": 47,
+    "name": 99,
+    "metadata": {
+      "hall": 3,
+      "posX": 2,
+      "posY": 2,
+      "type": "C-DIAS",
+      "brand": "Provik",
+      "ipAddress": "192.168.4.198",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": "-",
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "Provik (C-DIAS)",
+    "entityStatus": "Released",
+    "serialNumber": "18/017-99"
+  },
+  {
+    "id": 10017,
+    "name": 20,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 1,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.120",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 300,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81630116
+  },
+  {
+    "id": 10019,
+    "name": 48,
+    "metadata": {
+      "hall": 2,
+      "posX": 1,
+      "posY": 7,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.148",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 200,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81610011
+  },
+  {
+    "id": 10020,
+    "name": 31,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 8,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.120",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 300,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81630119
+  },
+  {
+    "id": 10048,
+    "name": 77,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 8,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.177",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 80,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61002490
+  },
+  {
+    "id": 10049,
+    "name": 60,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 9,
+      "type": "C2",
+      "brand": "Netstal",
+      "ipAddress": "192.168.4.160",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 250,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / N DS4",
+    "entityStatus": "Released",
+    "serialNumber": 2007047501
+  },
+  {
+    "id": 10050,
+    "name": 88,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 13,
+      "type": "C2",
+      "brand": "Netstal",
+      "ipAddress": "192.168.4.188",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 150,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / N DS4",
+    "entityStatus": "Released",
+    "serialNumber": 2005013501
+  },
+  {
+    "id": 10051,
+    "name": 78,
+    "metadata": {
+      "hall": 3,
+      "posX": 2,
+      "posY": 3,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.178",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 80,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61002488
+  },
+  {
+    "id": 10052,
+    "name": 81,
+    "metadata": {
+      "hall": 3,
+      "posX": 1,
+      "posY": 3,
+      "type": "B2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.181",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 150,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 153517
+  },
+  {
+    "id": 10053,
+    "name": 83,
+    "metadata": {
+      "hall": 3,
+      "posX": 1,
+      "posY": 5,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.183",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 125,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 1141046
+  },
+  {
+    "id": 10077,
+    "name": 71,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 3,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.171",
+      "GantPlanLic": "FALSE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 125,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61006497
+  },
+  {
+    "id": 10083,
+    "name": 70,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 1,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.170",
+      "GantPlanLic": "FALSE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 150,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61005903
+  },
+  {
+    "id": 19393,
+    "name": 63,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 6,
+      "type": "JSW",
+      "brand": "JSW",
+      "ipAddress": "192.168.4.163",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 280,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "JSW",
+    "entityStatus": "Released",
+    "serialNumber": "22082C797797 / 22082GF32F32"
+  },
+  {
+    "id": 19394,
+    "name": 64,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 4,
+      "type": "JSW",
+      "brand": "JSW",
+      "ipAddress": "192.168.4.164",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 280,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "JSW",
+    "entityStatus": "Released",
+    "serialNumber": "22082C802802 / 22082GF43F43"
   }
-}
+][
+  {
+    "id": 1,
+    "name": 72,
+    "metadata": {
+      "hall": 3,
+      "posX": 2,
+      "posY": 5,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.172",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 125,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61006498
+  },
+  {
+    "id": 2,
+    "name": 73,
+    "metadata": {
+      "hall": 3,
+      "posX": 1,
+      "posY": 2,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.175",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 200,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61007423
+  },
+  {
+    "id": 3,
+    "name": 74,
+    "metadata": {
+      "hall": 3,
+      "posX": 1,
+      "posY": 4,
+      "type": "C3",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.175",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 140,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61002488
+  },
+  {
+    "id": 4,
+    "name": 75,
+    "metadata": {
+      "hall": 3,
+      "posX": 1,
+      "posY": 1,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.175",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 200,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61007422
+  },
+  {
+    "id": 5,
+    "name": 76,
+    "metadata": {
+      "hall": 3,
+      "posX": 2,
+      "posY": 4,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.175",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 80,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61002489
+  },
+  {
+    "id": 6,
+    "name": 1,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 1,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.101",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 200,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87760940
+  },
+  {
+    "id": 7,
+    "name": 2,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 2,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.102",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 200,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87760089
+  },
+  {
+    "id": 8,
+    "name": 3,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 3,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.103",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 200,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87760088
+  },
+  {
+    "id": 9,
+    "name": 5,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 5,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.105",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 300,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87960520
+  },
+  {
+    "id": 10,
+    "name": 6,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 6,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.106",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87860841
+  },
+  {
+    "id": 11,
+    "name": 7,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 7,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.107",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87860842
+  },
+  {
+    "id": 12,
+    "name": 8,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 5,
+      "type": "Concept",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.108",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 350,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87910118
+  },
+  {
+    "id": 13,
+    "name": 21,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 2,
+      "type": "El-Exis ",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.121",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87860872
+  },
+  {
+    "id": 14,
+    "name": 28,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 7,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.128",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 150,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87660084
+  },
+  {
+    "id": 15,
+    "name": 29,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 16,
+      "type": "El-Exis S",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.129",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 150,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC4",
+    "entityStatus": "Released",
+    "serialNumber": 87660085
+  },
+  {
+    "id": 16,
+    "name": 4,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 4,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.104",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620181
+  },
+  {
+    "id": 17,
+    "name": 9,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 9,
+      "type": "Systec SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.109",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 280,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 80420047
+  },
+  {
+    "id": 18,
+    "name": 10,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 2,
+      "type": "Systec SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.110",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 350,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 80620032
+  },
+  {
+    "id": 19,
+    "name": 11,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 11,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.111",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620168
+  },
+  {
+    "id": 20,
+    "name": 12,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 12,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.112",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620170
+  },
+  {
+    "id": 21,
+    "name": 13,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 13,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.113",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620180
+  },
+  {
+    "id": 22,
+    "name": 14,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 14,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.114",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620185
+  },
+  {
+    "id": 23,
+    "name": 15,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 12,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.115",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 160,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72800539
+  },
+  {
+    "id": 24,
+    "name": 16,
+    "metadata": {
+      "hall": 1,
+      "posX": 1,
+      "posY": 15,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.116",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 130,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72710140
+  },
+  {
+    "id": 25,
+    "name": 22,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 3,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.122",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620036
+  },
+  {
+    "id": 26,
+    "name": 23,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 4,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.123",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620061
+  },
+  {
+    "id": 27,
+    "name": 24,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 5,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.124",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 300,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81630040
+  },
+  {
+    "id": 28,
+    "name": 27,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 6,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.127",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 160,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72800506
+  },
+  {
+    "id": 29,
+    "name": 30,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 9,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.130",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 300,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81630112
+  },
+  {
+    "id": 30,
+    "name": 62,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 7,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.162",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 300,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81650128
+  },
+  {
+    "id": 31,
+    "name": 32,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 10,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.132",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 160,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72800507
+  },
+  {
+    "id": 32,
+    "name": 40,
+    "metadata": {
+      "hall": 2,
+      "posX": 1,
+      "posY": 1,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.140",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620191
+  },
+  {
+    "id": 33,
+    "name": 41,
+    "metadata": {
+      "hall": 2,
+      "posX": 1,
+      "posY": 2,
+      "type": "Systec ",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.141",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 210,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 80320032
+  },
+  {
+    "id": 34,
+    "name": 43,
+    "metadata": {
+      "hall": 2,
+      "posX": 1,
+      "posY": 3,
+      "type": "Systec SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.143",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 210,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 80320019
+  },
+  {
+    "id": 35,
+    "name": 44,
+    "metadata": {
+      "hall": 2,
+      "posX": 1,
+      "posY": 4,
+      "type": "Systec SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.144",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 210,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 80320018
+  },
+  {
+    "id": 36,
+    "name": 45,
+    "metadata": {
+      "hall": 2,
+      "posX": 1,
+      "posY": 5,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.145",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620084
+  },
+  {
+    "id": 37,
+    "name": 46,
+    "metadata": {
+      "hall": 2,
+      "posX": 1,
+      "posY": 6,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.146",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620112
+  },
+  {
+    "id": 38,
+    "name": 47,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 11,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.147",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 130,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72710141
+  },
+  {
+    "id": 39,
+    "name": 50,
+    "metadata": {
+      "hall": 2,
+      "posX": 2,
+      "posY": 1,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.150",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 160,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72800359
+  },
+  {
+    "id": 40,
+    "name": 51,
+    "metadata": {
+      "hall": 2,
+      "posX": 2,
+      "posY": 2,
+      "type": "Systec SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.151",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 280,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 80420030
+  },
+  {
+    "id": 41,
+    "name": 52,
+    "metadata": {
+      "hall": 2,
+      "posX": 2,
+      "posY": 3,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.152",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 200,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81610020
+  },
+  {
+    "id": 42,
+    "name": 53,
+    "metadata": {
+      "hall": 2,
+      "posX": 2,
+      "posY": 4,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.153",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 160,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72800360
+  },
+  {
+    "id": 43,
+    "name": 54,
+    "metadata": {
+      "hall": 2,
+      "posX": 2,
+      "posY": 5,
+      "type": "IntElect",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.154",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 160,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 72800420
+  },
+  {
+    "id": 44,
+    "name": 55,
+    "metadata": {
+      "hall": 2,
+      "posX": 2,
+      "posY": 6,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.155",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620134
+  },
+  {
+    "id": 45,
+    "name": 56,
+    "metadata": {
+      "hall": 2,
+      "posX": 2,
+      "posY": 7,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.156",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": 250,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81620122
+  },
+  {
+    "id": 46,
+    "name": 98,
+    "metadata": {
+      "hall": 3,
+      "posX": 2,
+      "posY": 1,
+      "type": "C-DIAS",
+      "brand": "Provik",
+      "ipAddress": "192.168.4.198",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": "-",
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "Provik (C-DIAS)",
+    "entityStatus": "Released",
+    "serialNumber": "18/017-98"
+  },
+  {
+    "id": 47,
+    "name": 99,
+    "metadata": {
+      "hall": 3,
+      "posX": 2,
+      "posY": 2,
+      "type": "C-DIAS",
+      "brand": "Provik",
+      "ipAddress": "192.168.4.198",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "TRUE",
+      "clampingForce": "-",
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "Provik (C-DIAS)",
+    "entityStatus": "Released",
+    "serialNumber": "18/017-99"
+  },
+  {
+    "id": 10017,
+    "name": 20,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 1,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.120",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 300,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81630116
+  },
+  {
+    "id": 10019,
+    "name": 48,
+    "metadata": {
+      "hall": 2,
+      "posX": 1,
+      "posY": 7,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.148",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 200,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81610011
+  },
+  {
+    "id": 10020,
+    "name": 31,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 8,
+      "type": "El-Exis SP",
+      "brand": "Demag",
+      "ipAddress": "192.168.4.120",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 300,
+      "communitcation_interface": "euromap63"
+    },
+    "deviceType": "Machine",
+    "description": "Demag NC5",
+    "entityStatus": "Released",
+    "serialNumber": 81630119
+  },
+  {
+    "id": 10048,
+    "name": 77,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 8,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.177",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 80,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61002490
+  },
+  {
+    "id": 10049,
+    "name": 60,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 9,
+      "type": "C2",
+      "brand": "Netstal",
+      "ipAddress": "192.168.4.160",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 250,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / N DS4",
+    "entityStatus": "Released",
+    "serialNumber": 2007047501
+  },
+  {
+    "id": 10050,
+    "name": 88,
+    "metadata": {
+      "hall": 1,
+      "posX": 2,
+      "posY": 13,
+      "type": "C2",
+      "brand": "Netstal",
+      "ipAddress": "192.168.4.188",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 150,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / N DS4",
+    "entityStatus": "Released",
+    "serialNumber": 2005013501
+  },
+  {
+    "id": 10051,
+    "name": 78,
+    "metadata": {
+      "hall": 3,
+      "posX": 2,
+      "posY": 3,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.178",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 80,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61002488
+  },
+  {
+    "id": 10052,
+    "name": 81,
+    "metadata": {
+      "hall": 3,
+      "posX": 1,
+      "posY": 3,
+      "type": "B2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.181",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 150,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 153517
+  },
+  {
+    "id": 10053,
+    "name": 83,
+    "metadata": {
+      "hall": 3,
+      "posX": 1,
+      "posY": 5,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.183",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 125,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 1141046
+  },
+  {
+    "id": 10077,
+    "name": 71,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 3,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.171",
+      "GantPlanLic": "FALSE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 125,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61006497
+  },
+  {
+    "id": 10083,
+    "name": 70,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 1,
+      "type": "C2",
+      "brand": "Krauss Maffei",
+      "ipAddress": "192.168.4.170",
+      "GantPlanLic": "FALSE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 150,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "C-DIAS / KM MC4",
+    "entityStatus": "Released",
+    "serialNumber": 61005903
+  },
+  {
+    "id": 19393,
+    "name": 63,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 6,
+      "type": "JSW",
+      "brand": "JSW",
+      "ipAddress": "192.168.4.163",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 280,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "JSW",
+    "entityStatus": "Released",
+    "serialNumber": "22082C797797 / 22082GF32F32"
+  },
+  {
+    "id": 19394,
+    "name": 64,
+    "metadata": {
+      "hall": 4,
+      "posX": 1,
+      "posY": 4,
+      "type": "JSW",
+      "brand": "JSW",
+      "ipAddress": "192.168.4.164",
+      "GantPlanLic": "TRUE",
+      "AuthentigLic": "FALSE",
+      "clampingForce": 280,
+      "communitcation_interface": "c-dias"
+    },
+    "deviceType": "Machine",
+    "description": "JSW",
+    "entityStatus": "Released",
+    "serialNumber": "22082C802802 / 22082GF43F43"
+  }
+]
